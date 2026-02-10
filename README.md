@@ -16,7 +16,27 @@ The objective is to learn a **compressed latent representation** of face images 
 - Suitable for beginners learning representation learning
 
 ---
+## 🧩 Project Structure
 
+The repository has two main files:
+
+### 1️⃣ Simple Autoencoder
+- Uses fully-connected (**Linear**) layers  
+- Images are **flattened** before being passed to the network  
+- Helps understand:
+  - Encoder–decoder structure
+  - Latent space compression
+  - Reconstruction loss (**MSE**)
+
+### 2️⃣ Convolutional Autoencoder
+- Uses **Convolutional** and **Transposed Convolutional** layers  
+- Preserves **spatial information** in images  
+- Produces **sharper and more realistic reconstructions**  
+- Demonstrates why **CNN-based Autoencoders** are preferred for image data
+- Better Reconstruction and Accuracy
+
+
+---
 ## 📂 Dataset
 
 **LFWPeople (Labeled Faces in the Wild)**  
