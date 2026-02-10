@@ -33,7 +33,6 @@ The repository has two main files:
 - Preserves **spatial information** in images  
 - Produces **sharper and more realistic reconstructions**  
 - Demonstrates why **CNN-based Autoencoders** are preferred for image data
-- Better Reconstruction and Accuracy
 
 
 ---
